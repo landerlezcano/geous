@@ -1,7 +1,7 @@
 // Server settings
 var express = require('express');
 var app = express();
-var url = 'https://geous-trexco.herokuapp.com/';
+var url = '52.20.199.44';
 var port = 80;
 app.listen(3000, url);
 var server = require('http').Server(app).listen(port);
