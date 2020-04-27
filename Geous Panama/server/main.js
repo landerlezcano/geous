@@ -4,7 +4,7 @@ var app = express();
 var url = '52.20.199.44';
 var port = 80;
 app.listen(3000, url);
-var server = require('http').Server(app).listen(port);
+var server = require('https').Server(app).listen(port);
 var io = require('socket.io')(server);
 
 app.use(express.static('public'));
